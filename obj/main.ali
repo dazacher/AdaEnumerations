@@ -12,7 +12,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 
-U main%b		main.adb		c39eb08c NE OO SU
+U main%b		main.adb		e7a6b852 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -33,7 +33,7 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20210716130208 9b21ec45 main%b
+D main.adb		20210716132708 bf19e49b main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -59,17 +59,19 @@ X 3 a-inteio.ads
 18K13*Integer_Text_IO[11|46] 15|2w10 2r35
 X 10 a-textio.ads
 58K13*Text_IO 725e16 15|1w10 1r27
-506U14*Put_Line 15|11s5 12s5 13s5 15s5 17s5 19s5
+262U14*New_Line 15|20s5
+506U14*Put_Line 15|11s5 12s5 13s5 15s5 17s5 19s5 23s9 27s9 31s9 36s9
 X 15 main.adb
-4U11*Main 4b11 20l5 20t9
+4U11*Main 4b11 39l5 39t9
 5E10 Suit 5e61 6r26 7r17 8r16 11r35 12r36 15r38
 5n19 Clubs{5E10} 6r37
-5n26 Diamonds{5E10} 7r28
-5n36 Hearts{5E10} 7r40 7r50
-5n44 Spades{5E10} 6r46
+5n26 Diamonds{5E10} 7r28 22r9
+5n36 Hearts{5E10} 7r40 7r50 26r21
+5n44 Spades{5E10} 6r46 22r20 34r19
 5n52 No_Trump{5E10} 8r24
 6E13 PokerSuit{5E10} 9r18 9r31 13r36 14r19 16r19 17r43 18r19 18r34 19r36
-7e5 Two_Suite{5E10}
-8e5 Bid_Suit{5E10} 11r46
+7e5 Two_Suite{5E10} 26r9 30r9 35r9
+8e5 Bid_Suit{5E10} 11r46 30r22
 9e5 Flush_Suit{6E13} 12r47 13r52 14m5 15r49 16m5 16r34 17r59 18m5 18r48 19r52
+. 34m5 35r22
 

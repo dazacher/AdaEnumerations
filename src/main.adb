@@ -17,4 +17,23 @@ begin
     Put_Line("but now the flush is in " & PokerSuit'Image(Flush_Suit));
     Flush_Suit := PokerSuit'Val (PokerSuit'Pos(Flush_Suit) + 1);
     Put_Line("the same as Succ " & PokerSuit'Image(Flush_Suit));
+    New_Line;
+
+    if (Diamonds < Spades) then
+        Put_Line("Just as I thought.");
+    end if;
+
+    if (Two_Suite = Hearts) then
+        Put_Line("No surprises here.");
+    end if;
+
+    if (Two_Suite /= Bid_Suit) then
+        Put_Line("Also not too surprising.");
+    end if;
+
+    Flush_Suit := Spades;
+    if (Two_Suite /= Flush_Suit) then
+        Put_Line("Will this work?");
+    end if;
+
 end Main;
